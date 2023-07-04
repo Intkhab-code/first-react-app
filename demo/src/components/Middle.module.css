@@ -76,11 +76,16 @@ margin-left: 1rem;
     width: 2.5rem;
     height: 2.5rem;
     border: 1.5px solid rgb(151, 151, 234);
+    opacity: 0.9;
     padding-left: 0.2rem;
     border-radius: 50%;
     /* background-color: blue; */
     margin-top: -7px;
     cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPZKePKD_Ujhx13YplHMWRh-IDIQyEd5Ksw&usqp=CAU');
 }
 
 .sigup>button:hover{
@@ -227,8 +232,14 @@ form>button:hover{
             border: 2px solid blue;
             border-radius: 50%;
             width: 1.6rem;
-            height: 1.5rem;
+            height: 1.6rem;
+            opacity: 0.9;
             padding-left: 0.2rem;
+            margin-top: -0.2rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPZKePKD_Ujhx13YplHMWRh-IDIQyEd5Ksw&usqp=CAU');
         }
 
         .end2{

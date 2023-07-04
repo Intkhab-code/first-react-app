@@ -32,9 +32,14 @@ ul{
     list-style: none;
 }
 
-ul>li:hover{
+.list:hover{
     cursor: pointer;
     color: rgb(106, 106, 108);
+}
+
+.list{
+   text-decoration: none;
+   color: black;
 }
 
 .searchBar{
@@ -63,6 +68,9 @@ ul>li:hover{
    display: none;
 }
 
+hr{
+    display: none;
+}
 
 
 
@@ -76,7 +84,8 @@ ul>li:hover{
         display: table; 
         /* padding-top: rem; */
         position: absolute;
-        background-color: rgb(13, 9, 9);
+        background-color: rgb(5, 5, 8);
+        opacity: 0.9;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -99,6 +108,14 @@ ul>li:hover{
     ul>li:hover{
         color:rgb(99, 99, 100);
     }
+     
+    .list{
+        color:white;
+     }
+     
+     .list:hover{
+        color: rgb(57, 238, 66);
+     }
 
     .searchBar{
         width: 7.8rem;
@@ -145,5 +162,14 @@ ul>li:hover{
     .navbar{
         color: white;
         display: unset;
+    }
+
+    hr{
+        display: unset;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: -2.4rem;
     }
 }

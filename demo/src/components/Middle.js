@@ -34,7 +34,7 @@ function Middle() {
               </div> : null}
           </div>
           <div className={css.sigup} id='a'>                <span>Best Sigup offers</span>
-            <button type='submitt' onClick={() => setToggle(true)}>-</button>
+            <button type='submitt' onClick={() => setToggle(true)}></button>
           </div>
         </div>
         <div className={css.end2}>
@@ -50,7 +50,7 @@ function Middle() {
       </div>
       <div className={css.sig}>
         <span>Best Sigup offers</span>
-        <div onClick={() => setToggle(true)}>-</div>
+        <div onClick={() => setToggle(true)}></div>
       </div>
       <div>
         <div className={css.endDivMobile}>

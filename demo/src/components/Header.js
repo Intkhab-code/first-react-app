@@ -20,11 +20,14 @@ function Header() {
             </div>
             {toggle && (<ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link className={css.list} to="/">Home</Link>
               </li>
-              <li><Link to="/collection">Collection</Link></li>
-              <li><Link to="/new">New</Link></li>
-              <li><Link to="/sale">Sale</Link></li>
+              <hr/>
+              <li><Link className={css.list} to="/collection">Collection</Link></li>
+              <hr/>
+              <li><Link className={css.list} to="/new">New</Link></li>
+              <hr/>
+              <li><Link className={css.list} to="/sale">Sale</Link></li>
             </ul>)}
           </div>
           <div className={css.searchBar}>
