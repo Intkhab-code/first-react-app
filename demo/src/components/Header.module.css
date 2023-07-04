@@ -1,0 +1,149 @@
+.container{
+    display: flex;
+    padding: 1.5rem;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+ul>li:hover{
+    cursor: pointer;
+    color: rgb(106, 106, 108);
+}
+
+.searchBar{
+    width: 9rem;
+    height: 1.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.searchBar>input{
+    width: 7rem;
+    height: 1rem;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.searchImage{
+   width: 1.5rem;
+   height: 1.5rem;
+   cursor: pointer;
+}
+
+.navbar{
+   display: none;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    ul{
+        display: flex;
+        font-weight: 700;
+        list-style: none;
+        margin-left: 7rem;
+        margin-top: -0.5rem;
+        display: table; 
+        /* padding-top: rem; */
+        position: absolute;
+        background-color: rgb(13, 9, 9);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        /* border: 2px solid black; */
+        height: 15.5rem;
+        border-radius: 0.2rem;
+    }
+
+    ul>li{
+       font-size: 1.5rem;
+       margin-top: 1.2rem;
+       /* border: 1px solid rgb(184, 6, 6); */
+       width: 12.2rem;
+       margin-left: -2.4rem;
+       height: 2rem;
+       border:0, 2px, 0, 0;
+       color: white;
+    }
+
+    ul>li:hover{
+        color:rgb(99, 99, 100);
+    }
+
+    .searchBar{
+        width: 7.8rem;
+        height: 1.5rem;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        margin-left: 9rem;
+        display: flex;
+    }
+
+    .searchBar>input{
+        width: 6rem;
+        height: 1rem;
+        outline: none;
+        border: none;
+        color: black;
+    }
+
+    .searchImage{
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+     }
+
+    .navbar{
+        margin-left: 12rem;
+        /* height: 3.5rem; */
+    }
+
+    .navbar>span{
+         color: white;
+         font-size: 4rem;
+    }
+
+    .menu>div{
+        margin-top: -1.2rem;
+    }
+
+    .navbar>span:hover{
+        color: rgb(107, 107, 108);
+    }
+
+    .navbar{
+        color: white;
+        display: unset;
+    }
+}
