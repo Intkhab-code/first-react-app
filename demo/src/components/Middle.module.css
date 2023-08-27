@@ -19,7 +19,7 @@
 
 .blueCircle{
     background-image: url('../asesst/wp9818886.jpg');
-    width: 20rem;
+    width: 25rem;
     height: 40rem;
     margin-top: -10rem;
     margin-left: 2rem;
@@ -52,12 +52,12 @@
 }
 
 .rat2{
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .endleft2{
-    margin-top: 2.5rem;
+    margin-top: 5rem;
 }
 
 .sigup{
